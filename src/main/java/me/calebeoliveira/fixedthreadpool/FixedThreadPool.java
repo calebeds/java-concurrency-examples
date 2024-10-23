@@ -1,4 +1,4 @@
-package me.calebeoliveira.fixedthreadpool.singlethreadexecutor;
+package me.calebeoliveira.fixedthreadpool;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;

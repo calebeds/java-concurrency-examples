@@ -19,9 +19,9 @@ public class FibonacciTask extends RecursiveTask<Integer> {
         FibonacciTask fib1 = new FibonacciTask(n - 1);
         FibonacciTask fib2 = new FibonacciTask(n - 2);
 
-        fib1.fork();
+//        fib1.fork();
         fib2.fork();
 
-        return fib1.join() + fib2.join();
+        return fib1.compute() + fib2.join();
     }
 }
